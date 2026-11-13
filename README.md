@@ -9,6 +9,9 @@ Mini project aplikasi Flutter 1 halaman utama yang menampilkan kartu informasi d
 * **Universitas:** Universitas Teknologi Bandung
 * **Mata Kuliah:** Pemrograman Mobile 2 
 
+## Screenshoot Tampilan
+<img width="1600" height="900" alt="WhatsApp Image 2026-11-14 at 12 25 36 AM" src="https://github.com/user-attachments/assets/0e069459-6ae9-4f3e-b407-9867da709a3f" />
+
 ## Komponen & Kriteria yang Diterapkan
 Seluruh kode antarmuka ditulis di dalam file `lib/main.dart` dengan menerapkan komponen berikut:
 * **Widget Dasar:** `Text`, `Image` (`assets/jeno.jpg`), dan `Icon`
@@ -27,6 +30,3 @@ Seluruh kode antarmuka ditulis di dalam file `lib/main.dart` dengan menerapkan k
 ├── lib/
 │   └── main.dart
 └── pubspec.yaml
-
-## Screenshoot Tampilan
-<img width="1600" height="900" alt="WhatsApp Image 2026-11-14 at 12 25 36 AM" src="https://github.com/user-attachments/assets/441cf1e9-8048-4c82-bae2-cadead2a7894" />
