@@ -1,17 +1,32 @@
-# flutter_application_1
+# Student Info Card — Tugas Pemrograman Mobile 2
 
-A new Flutter project.
+Mini project aplikasi Flutter 1 halaman utama yang menampilkan kartu informasi dan profil mahasiswa dengan desain bersih, responsif, dan konsisten.
 
-## Getting Started
+## Identitas Mahasiswa
+* **Nama:** Fitri Liyani
+* **NIM:** 24552011166
+* **Program Studi:** Teknik Informatika (Semester 5)
+* **Universitas:** Universitas Teknologi Bandung
+* **Mata Kuliah:** Pemrograman Mobile 2 
 
-This project is a starting point for a Flutter application.
+## Komponen & Kriteria yang Diterapkan
+Seluruh kode antarmuka ditulis di dalam file `lib/main.dart` dengan menerapkan komponen berikut:
+* **Widget Dasar:** `Text`, `Image` (`assets/jeno.jpg`), dan `Icon`
+* **Widget Layout:** `Column` untuk susunan vertikal utama dan `Row` untuk baris badge serta footer.
+* **Styling & Komponen Informasi:** `Container` (untuk *header* gradasi, *padding*, *margin*, dan *badge*), `Card`, serta `ListTile`.
+* **Tema Global:** `ThemeData` pada `MaterialApp` untuk mengatur skema warna utama dan gaya teks secara konsisten.
+* **Custom Font:** Menggunakan font **Poppins** (`Poppins-Regular.ttf` dan `Poppins-Bold.ttf`) dari direktori `assets/fonts/`.
 
-A few resources to get you started if this is your first Flutter project:
+## Struktur Folder Utama
+```text
+├── assets/
+│   ├── fonts/
+│   │   ├── Poppins-Bold.ttf
+│   │   └── Poppins-Regular.ttf
+│   └── jeno.jpg
+├── lib/
+│   └── main.dart
+└── pubspec.yaml
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshoot Tampilan
+<img width="1600" height="900" alt="WhatsApp Image 2026-11-14 at 12 25 36 AM" src="https://github.com/user-attachments/assets/441cf1e9-8048-4c82-bae2-cadead2a7894" />
